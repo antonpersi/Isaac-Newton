@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manuscripts of the Dibner Collection MS. 1031 B, The Dibner Library of the
+               History of Science and Technology, Smithsonian Institution Libraries, Smithsonian
+               Institution</title>
+            <author>Isaac Newton</author>
+            <editor>William R. Newman</editor>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName n="1">Patrycja Karolina Pietras</persName>
+               <persName n="2">Anton Persanov</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding supervisor</resp>
+               <name>Franz Fisher</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>2022</date>
+            <availability status="restricted">
+               <p>Available for academic research purposes only. </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <!-- specific required tag for describing manuscripts -->
+               <msIdentifier>
+                  <settlement>Columbia</settlement>
+                  <repository>The Dibner Library of the History of Science and
+                     Technology</repository>
+                  <idno type="URI">http://purl.dlib.indiana.edu/iudl/newton/ALCH00081</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>This folio is an extract of an eleven-page tract representing Newton's attempt
+                     to provide a synopsis of his early alchemical reading, and to come up with what
+                     is, essentially, a "theory of everything," namely a physical theory that
+                     unifies and accounts for all known natural phenomena.</p>
+                  <!-- it is better to describe the content of the manuscript (what it is about) -->
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <!-- layout description can be very elaborated and useful -> eg: <decoDesc> is useful for art books -->
+                     <supportDesc>
+                        <extent>1 sheet <dimensions scope="all" type="leaf" unit="mm">
+                              <height>200</height>
+                              <width>311</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">english</language>
+            <language ident="la">latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic xml:id="nat-1" url="http://purl.dlib.indiana.edu/iudl/newton/ALCH00081"/>
+      </surface>
+   </facsimile>
+   <text>
+      <pb facs="#nat-1" n="1"/>
+      <body>
+         <!-- TIP encode odd features of a manuscript -> useful to analyze -->
+         <div n="1" type="part">
+            <list rend="inline numbered">
+               <label>1</label>
+               <item><lb/>Of Natures obvious laws &amp; processes in vegetation. <lb/> That <gap
+                     extent="1 word" reason="deleted"/>
+                  <del rend="overstrike">vegetation of metalls is described to be don by the same
+                     laws by y<hi rend="superscript">e</hi> universall consent of the
+                  magi</del></item>
+
+               <label>2</label>
+               <item><lb/>That metalls vegetate after the same laws. <add place="supralinear">
+                     Proved transitorily fr </add> ffrom y<hi rend="superscript">e</hi>
+                  circumstances observed by <lb/> miners, <add place="supralinear">more fully
+                     from</add> The consent of y<hi rend="superscript">e</hi> Sophy w<hi
+                     rend="superscript">th</hi> one another &amp; w<hi rend="superscript">th</hi>
+                  natures processe, &amp; y<hi rend="superscript">e</hi> strange distractions <lb/>
+                  of all other chymists from both nature &amp; one another. And y<hi
+                     rend="superscript">e</hi> corruptibility of all things <lb/></item>
+
+               <delSpan spanTo="#endDel" rend="overstrike"/>
+               <label>3</label>
+               <item>That vegetation may be <gap extent="3 words" reason="deleted"/>
+                  <add place="supralinear">though</add> promoted by art is naturall.</item>
+
+               <lb/>
+               <label>4</label>
+               <item> That <gap extent="1 word" reason="deleted"/> natures process in vegetation is
+                  best understood in y<add place="supralinear">e</add> simplest p</item>
+               <anchor xml:id="endDel"/>
+
+               <lb/>
+               <label>3</label>
+               <item> A description of their vegetation in the earth <lb/></item>
+
+               <label>4</label>
+               <item> A description of their vegetation in a glasse. &amp; that this is as much
+                  naturall as tother </item>
+               <lb/>
+               <label>5</label>
+               <item>The circumstances in w<hi rend="superscript">ch</hi> they agree w<hi
+                     rend="superscript">th</hi> plants &amp; animalls. And of met trees by nature
+                  &amp; <add place="infrralinear">Art</add></item>
+
+               <lb/>
+               <label>6</label>
+               <item> That vegetation <del rend="overstrike">proceeds from y<hi rend="superscript"
+                        >e</hi>
+                  </del> is y<hi rend="superscript">e</hi> sole effect of a latent spt &amp; that
+                  this <lb/><choice>
+                     <abbr>spt</abbr>
+                     <expan>spirit</expan>
+                  </choice> is y<hi rend="superscript">e</hi> same in all things only discriminated
+                  by its degrees of maturity &amp; the rude matter <lb/>Thus instancd in metalls <choice>
+                     <abbr>&amp;c.</abbr>
+                     <expan>etcetera</expan>
+                  </choice> In fermentation of wines in Autu<hi rend="supraline">m</hi>, in
+                  Antypathys in y<hi rend="superscript">e</hi> contagiousnes of putrefact <supplied
+                     reason="cramped">ion</supplied>
+                  <ref target="https://recipes.hypotheses.org/tag/crocus-metallorum"><lb/> In crocus
+                        metallor<hi rend="supraline">u</hi></ref>.</item>
+
+               <lb/>
+               <label>7</label>
+               <item>Of y<hi rend="superscript">e</hi> actions &amp; passions of grosser matter
+                  &amp; how far that is common. <lb/></item>
+
+               <label>8</label>
+               <item> Of the <del rend="overstrike">effects produced by</del> the degrees of
+                  maturity in all kingdoms <gap extent="1 word" reason="deleted"/>
+                  <add place="supralinear">mixture</add> putrefaction con <lb/>
+                  <del rend="overstrike"> junction, vegetation, <choice>
+                        <abbr>&amp;c</abbr>
+                        <expan>etcetera</expan>
+                     </choice> How a tree might conserve its specie</del>
+                  <add place="supralinear"> conjunction vegetation <choice>
+                        <abbr>&amp;c.</abbr>
+                        <expan>etcetera</expan>
+                     </choice> &amp; <unclear reason="illegible">that</unclear> is only observable
+                     mineralls</add></item>
+               <lb/>
+               <label>9</label>
+               <item> How things conserve their species &amp; how a tree might bee conserved &amp;
+                     <unclear reason="illegible">nourishd</unclear>
+                  <lb/> In the glass &amp; that its probable those metalline trees in the earth grew
+                  after this manner <add place="infralinear">&amp; why the continuall mutations in
+                     mans body are insensible. Note in y<hi rend="supraline">e</hi> sam minerall are
+                     found divers metalls or <unclear reason="illegible"
+                  >degrees</unclear></add></item>
+               <lb/>
+               <label>10</label>
+               <item> Of seed &amp; propagation in number bulk &amp; quality. Why y<hi
+                     rend="supraline">e</hi> ejection of it debi<lb break="no"/>litates. Why the
+                  product is sometimes male &amp; sometimes female <lb/>11 Of protoplasts y<hi
+                     rend="supraline">t</hi> nature can onely nourish, not form them, Thats Gods
+                     <add place="supralinear">mechanisme</add>
+                  <del rend="overstrike">work</del> y<hi rend="supraline">e</hi> other natures
+                  <lb/>12 Why the two Elixirs are the most <del rend="overstrike">nourishing</del>
+                  amicable &amp; universall medicine to <lb/> all beings what ever</item>
+            </list>
+         </div>
+         <space quantity="3" unit="line"/>
+         <div n="2" type="part">
+            <p>Notes <hi rend="superscript">of agreement</hi>. y<hi rend="superscript">e</hi> less
+                  <unclear reason="illegible">diffence</unclear> in maturity the quicker union &amp;
+               work, In mineralls; &amp; hence animalls easy transmute <choice>
+                  <abbr>&amp;c.</abbr>
+                  <expan>etcetera</expan>
+               </choice> 2 y<hi rend="superscript">e</hi> lesse nourishment y<hi rend="superscript"
+                  >e</hi> quicker &amp; safer concoction. 3 Tis a safer work to imbibe gradually
+               then give y<hi rend="superscript">e</hi> nourishment at onece. 4 heterogeneous
+               impurities are hurtful 5 a gentle heat. 6 nature ever begins with putrefaction or
+               fermentation whereby there is an intimate union &amp; exertion of S<add
+                  place="supralinear">pts</add> purgation of impuritys 7 After putrefaction the work
+               is pretty secure, in y<hi rend="superscript">t</hi> is y<hi rend="superscript">e</hi>
+               main danger of miscariage. Hence diseases cheifly in the stomack &amp; blood<add
+                  place="supralinear"> miscariag after first coition. y<hi rend="superscript">e</hi>
+                  egg seldom miscarys</add> 8 putrefaction exerts a spirit, <hi rend="superscript"
+                  >purgeth feces</hi>, 9 &amp; makes an intimate mixture. <add place="supralinear"
+                  >stink like that of a carcasse</add> 10 After the term of con junction vegetation
+               admits of noe interruption. by cold y<hi rend="superscript">e</hi> composit<hi
+                  rend="supraline">u</hi> dyes, &amp; by excessive heat. 11 Vegetation must bee
+               performed in humido. 12 the motion stays at the maturity of the first movers 12
+               suddein heats &amp; colds prejudice maturity. 13 putrefaction <supplied
+                  reason="illegible"> seperatet</supplied> feces. <gap extent="1 word"
+                  reason="deleted"/> hence urin gall &amp;c 14 Totall putrefaction makes a black
+               stinking <supplied reason="illegible"> rottennes</supplied> 15 after conjunction the
+               matter is apt to grow into all figures &amp; colours though <unclear
+                  reason="illegible">transitory</unclear> because y<hi rend="superscript">e</hi>
+               motion is not yet terminated. 16 In y<hi rend="superscript">e</hi> same Oare severall
+               metalls are found all w<hi rend="superscript">ch</hi> vegetate distinctly. 17 That
+               salt cheifly excites to vegetation 18 That in y<hi rend="superscript">e</hi> first
+               days of y<hi rend="superscript">e</hi> stone green is y<hi rend="superscript">e</hi>
+               only permanent colour &amp; so in y<hi rend="superscript">e</hi> least mature vege
+               tables. 19 That sometimes metalls grow like trees in y<hi rend="superscript">e</hi>
+               earth. 20 That nothing has so great powers on animalls as mineralls witnes not only
+               the Alkahest to destroy<hi rend="superscript"> &amp;</hi> y<hi rend="superscript"
+                  >e</hi> Elixir to conserve but <corr change="_">but</corr> their operations in
+               common chymicall physick &amp; in springs &amp; &amp; therefore since wee live in
+                  y<hi rend="superscript">e</hi> air where their most subtile vapours are ever
+               disperst wee must of necessity have a great dependance on them, witnes healthfull
+               &amp; sickly yeares, the barronnes of grownd over<hi rend="subscript">mines <choice>
+                     <abbr>&amp;c.</abbr>
+                     <expan>etcetera</expan>
+                  </choice></hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
