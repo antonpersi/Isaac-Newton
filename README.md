@@ -5,7 +5,7 @@ This project was created by Patrycja Karolina Pietras and [Anton Persianov](http
 
 # Content
 
-This folio is an extract of an eleven-page tract representing Newton's attempt to provide a synopsis of his early alchemical reading, and to come up with what is, essentially, a "theory of everything," namely a physical theory that unifies and accounts for all known natural phenomena.
+This folio is an extract of [an eleven-page tract](https://webapp1.dlib.indiana.edu/newton/mss/dipl/ALCH00081) representing Newton's attempt to provide a synopsis of his early alchemical reading, and to come up with what is, essentially, a "theory of everything," namely a physical theory that unifies and accounts for all known natural phenomena.
 
 ![text](http://purl.dlib.indiana.edu/iudl/newton/screen/ALCH00081-01r)
 
