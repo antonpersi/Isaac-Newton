@@ -11,6 +11,6 @@ This folio is an extract of an eleven-page tract representing Newton's attempt t
 
 # Source 
 
-Manuscripts of the Dibner Collection MS. 1031 B, The Dibner Library of the History of Science and Technology, Smithsonian Institution Libraries, Smithsonian Institution
+Manuscripts of the Dibner Collection MS. 1031 B, [The Dibner Library of the History of Science and Technology](https://library.si.edu/libraries/dibner), Smithsonian Institution Libraries, Smithsonian Institution
 
 
