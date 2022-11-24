@@ -1,7 +1,7 @@
 # Isaac Newton Project
 XML(TEI) code representation of [one of manuscripts](https://webapp1.dlib.indiana.edu/newton/html/metsnav3.html#mets=http://purl.dlib.indiana.edu/iudl/newton/mets/ALCH00081&page=1) written by genius medieval scientist Isaac Newton in the digital form.
 
-This project was created by [Patrycja Karolina Pietras] (https://github.com/Paty06) and [Anton Persianov](https://github.com/antonpersi) as the final output of the Text Encoding and Digital Scholarly Editing course held at Ca' Foscari Venice University by [Professor Franz Fischer](www.unive.it/persone/franz.fischer).
+This project was created by [Patrycja Karolina Pietras](https://github.com/Paty06) and [Anton Persianov](https://github.com/antonpersi) as the final output of the Text Encoding and Digital Scholarly Editing course held at Ca' Foscari Venice University by [Professor Franz Fischer](www.unive.it/persone/franz.fischer).
 
 # Content
 
